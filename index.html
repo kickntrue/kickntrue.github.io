@@ -14,6 +14,18 @@
   overflow-x:auto;
 }
 
+.slider {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  overflow-x: auto;
+}
+.slide {
+  width: 300px;
+  flex-shrink: 0;
+  height: 100%;
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -34,7 +46,7 @@ body, html {
 
 <body>
 
-<div class="w3-content w3-section" style="max-width:100%">
+<div class="slider" style="max-width:100%">
   <img class="mySlides" src="bg.jpg" style="width:100%">
   <img class="mySlides" src="bg2.jpg" style="width:100%">
   <img class="mySlides" src="bg3.jpg" style="width:100%">
