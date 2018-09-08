@@ -35,6 +35,7 @@ body, html {
   <img class="mySlides" src="bg3.jpg" style="width:100%">
   <img class="mySlides" src="bg4.jpg" style="width:100%">
   <img class="mySlides" src="bg5.jpg" style="width:100%">
+  <img class="mySlides" src="bg6.jpg" style="width:100%">
 </div>
 
 <script>
@@ -45,7 +46,7 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
+       x[i].style.display = "fade";
     }
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}
